@@ -12,8 +12,8 @@ namespace krokodillespill
             while (flag)
             {
                 var random = new Random();
-                var tall1 = random.Next(0, 12);
-                var tall2 = random.Next(0, 12);
+                int tall1 = random.Next(0, 12);
+                int tall2 = random.Next(0, 12);
 
                 Console.WriteLine("Poeng: " + points);
                 Console.WriteLine("Use: <, > or =");
