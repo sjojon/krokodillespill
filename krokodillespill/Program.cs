@@ -5,9 +5,6 @@ namespace krokodillespill
 {
     internal class Program
     {
-        //private static Random random = new Random();
-
-
         static void Main(string[] args)
         {
             int points = 0;
